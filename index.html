@@ -1,0 +1,2681 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="MobileOptimized" content="320" />
+    <title>VoltUp</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="webstatic/css/style1.css">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/owl.theme.default.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="webstatic/css/slick.css">
+    <link rel="stylesheet" href="assets/css/scrollSpy.css" />
+    <link rel="stylesheet" href="assets/css/scrollSpy2.css" />
+    <link rel="stylesheet" href="assets/css/w3.css">
+
+    <link rel="stylesheet" href="assets/css/style2.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>-->
+    <!--=== Favicon Link ===-->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favi.png">
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>-->
+    <!--===== script start =====-->
+    <script type="text/javascript" async src="https://www.google-analytics.com/analytics.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>-->
+    <!--=== Favicon Link ===-->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favi.png">
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>-->
+    <!--===== script start =====-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159410574-1"></script>
+
+    <style class="cp-pen-styles">
+
+
+        #learn-more {
+            display: none;
+        }
+
+            #learn-more:hover {
+                fill-opacity: 1;
+            }
+
+                #learn-more:hover ~ .learn-more-text {
+                    fill: #009805;
+                }
+
+        .learn-more-text {
+            fill: #fff;
+            pointer-events: none;
+            font-size: 12px;
+            -webkit-transition: all 250ms ease-in;
+            transition: all 250ms ease-in;
+        }
+
+        .center {
+            fill: #009805;
+        }
+
+        .pointer {
+            fill: #fff;
+            stroke: #ccc;
+            stroke-width: 2;
+        }
+
+        .nav-copy {
+            fill: #fff;
+            fill-opacity: 1;
+            -webkit-transition: all 250s ease-in;
+            transition: all 250s ease-in;
+        }
+
+            .nav-copy.changing {
+                fill-opacity: 0;
+            }
+
+        .service {
+            cursor: pointer;
+        }
+
+            .service text {
+                font-size: 12px;
+                text-anchor: middle;
+            }
+
+            .service .icon-wrapper {
+                -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+            }
+
+                .service .icon-wrapper,
+                .service .icon-wrapper > * {
+                    -webkit-transition: all 250ms ease-in;
+                    transition: all 250ms ease-in;
+                }
+
+            .service circle {
+                fill: #f3f3f3;
+            }
+
+                .service circle.shadow {
+                    fill-opacity: 0;
+                    -webkit-filter: url(#service-shadow);
+                    filter: url(#service-shadow);
+                }
+
+            .service use {
+                fill: green;
+            }
+
+            .service text {
+                fill: #000;
+            }
+
+            .service.active .icon-wrapper,
+            .service:hover .icon-wrapper {
+                -webkit-transform: scale(1.15) translateY(-5px);
+                transform: scale(1.15) translateY(-5px);
+            }
+
+                .service.active .icon-wrapper,
+                .service.active .icon-wrapper > *,
+                .service:hover .icon-wrapper,
+                .service:hover .icon-wrapper > * {
+                    -webkit-transition: all 250ms ease-out;
+                    transition: all 250ms ease-out;
+                }
+
+                    .service.active .icon-wrapper circle.shadow,
+                    .service:hover .icon-wrapper circle.shadow {
+                        fill-opacity: 0.4;
+                    }
+
+            .service.active text,
+            .service:hover text {
+                fill: #009805;
+                font-weight: bold;
+            }
+
+        .ss_header.solid {
+            background-color: #21812f;
+            transition: background-color 1s ease 0s;
+            box-shadow: 0 0 4px grey;
+        }
+
+        .tab {
+            overflow: hidden;
+            /*border: 1px solid #ccc;
+          background-color: #f1f1f1;*/
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 6px 70px;
+            border: none;
+            border-top: none;
+        }
+
+
+        .itmenew {
+            -webkit-animation: scale 0.2s ease-in-out;
+            -moz-animation: scale 0.2s ease-in-out;
+            animation: scale 0.2s ease-in-out;
+        }
+
+        @keyframes scale {
+            0% {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.01);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .aanew {
+            width: 600px;
+            height: 400px;
+            margin: -20px 0 0 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .aanew {
+                width: 350px;
+                height: 400px;
+                margin: 90px 0 0 -60px;
+            }
+
+            .w3-bar .w3-bar-item {
+                padding: 8px 16px;
+                float: left;
+                width: 100%;
+                border: none;
+                display: block;
+                outline: 0;
+            }
+
+            .newtitle {
+                margin: 0 0 100px -50px;
+            }
+        }
+        /* New Css */
+        .tab_area {
+            font-family: 'Quicksand', sans-serif;
+            padding-top: 100px;
+            ;
+        }
+
+        .inner_tab_container {
+            width: 1200px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+            .inner_tab_container .tab_header h2.heading {
+                font-size: 28px;
+                font-weight: 100;
+                letter-spacing: 1px;
+                margin-bottom: 8px;
+                position: relative;
+                text-transform: capitalize;
+            }
+
+            .inner_tab_container .tab_header p.sub_heading {
+                font-size: 18px;
+                font-weight: 300;
+                color: rgba(0, 0, 0, 0.92);
+                opacity: 0.5;
+                margin-top: 5px;
+            }
+
+        .tabs {
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+        }
+
+            .tabs li {
+                list-style: none;
+                width: 15%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                cursor: pointer;
+            }
+
+                .tabs li .img_container {
+                    height: 80px;
+                    width: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                }
+
+                    .tabs li .img_container img {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                /* .tabs li:hover .img_container{
+            background: green;
+        } */
+
+
+                .tabs li:hover .img_container img {
+                    animation: slide .7s forwards;
+                }
+
+        @-webkit-keyframes slide {
+            0% {
+                transform: translateX(-20px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-20px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+
+        .outer_tab_area .main_panel .main_panel_header h3.title {
+            font-family: 'Quicksand', sans-serif;
+            color: #21812f;
+            font-size: 28px;
+            font-weight: 100;
+            margin: 10px 0px;
+            position: relative;
+            /* width: fit-content; */
+            letter-spacing: 1px;
+        }
+
+            .outer_tab_area .main_panel .main_panel_header h3.title::before {
+                content: '';
+                position: absolute;
+                display: block;
+                background: #fff;
+                width: 13px;
+                height: 4px;
+                bottom: -10px;
+                z-index: 1000;
+                left: 50%;
+                margin-left: -50px;
+                animation: mover 2s infinite alternate;
+            }
+
+        @-webkit-keyframes mover {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(85px);
+            }
+        }
+
+        @keyframes mover {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(85px);
+            }
+        }
+
+        .outer_tab_area .main_panel .main_panel_header h3.title::after {
+            content: '';
+            position: absolute;
+            display: block;
+            background: green;
+            width: 105px;
+            height: 3px;
+            bottom: -10px;
+            border-radius: 100px;
+            left: 50%;
+            margin-left: -50px;
+        }
+
+        .outer_tab_area .main_panel .panel_content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .outer_tab_area .main_panel {
+            display: none;
+            margin-top: 50px;
+        }
+
+            .outer_tab_area .main_panel.active {
+                display: block;
+            }
+
+            .outer_tab_area .main_panel .panel_content .column_one{
+                flex-basis: 50%;
+            }
+
+            .outer_tab_area .main_panel .panel_content .column_one img {
+                max-width: 80%;
+            }
+
+            .outer_tab_area .main_panel .panel_content .column_two {
+                /* background: linear-gradient(to top right, #a8e063, #56ab2f); */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-basis: 50%;
+            }
+
+                .outer_tab_area .main_panel .panel_content .column_two .sub_panel,
+                .outer_tab_area .main_panel .panel_content .column_two .sub_panel2,
+                .outer_tab_area .main_panel .panel_content .column_two .sub_panel3,
+                .outer_tab_area .main_panel .panel_content .column_two .sub_panel4 {
+                    margin-bottom: 40px;
+                    padding: 20px;
+                }
+
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel h3,
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel2 h3,
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel3 h3,
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel4 h3 {
+                        font-family: 'Quicksand', sans-serif;
+                        color: #21812f;
+                        font-size: 28px;
+                        font-weight: 100;
+                        margin: 10px 0px;
+                        position: relative;
+                        width: fit-content;
+                        letter-spacing: 1px;
+                    }
+
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel h3::before,
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel2 h3::before,
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel3 h3::before,
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel4 h3::before {
+                            content: '';
+                            position: absolute;
+                            display: block;
+                            background: #fff;
+                            width: 13px;
+                            height: 4px;
+                            bottom: -10px;
+                            z-index: 1000;
+                            animation: mover 2s infinite alternate;
+                        }
+
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel h3::after,
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel2 h3::after,
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel3 h3::after,
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel4 h3::after {
+                            content: '';
+                            position: absolute;
+                            display: block;
+                            background: #21812f;
+                            width: 105px;
+                            height: 3px;
+                            bottom: -10px;
+                            border-radius: 100px;
+                        }
+
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel .caption_text,
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel2 .caption_text,
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel3 .caption_text,
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel4 .caption_text {
+                        font-size: 15px;
+                        font-weight: 400;
+                        font-family: Poppins,sans-serif;
+                    }
+
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs,
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2,
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3,
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 {
+                    display: flex;
+                    list-style: none;
+                    margin: 0;
+                    background: #d7eaca;
+                    border-top-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                }
+
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels,
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels2,
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels3,
+                .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 {
+                    background: #e4f3db;
+                    position: relative;
+                }
+
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs li,
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2 li,
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3 li,
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 li {
+                        flex-basis: 33.33%;
+                        cursor: pointer;
+                        /* border: 1px solid #21812f; */
+                        text-align: center;
+                        padding: 30px;
+                        transition: .10s all ease-in-out;
+                    }
+
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs li i,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2 li i,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3 li i,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 li i {
+                            font-size: 35px;
+                            transition: .5s all ease-in-out;
+                            color: #21812f;
+                        }
+
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs li:hover,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2 li:hover,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3 li:hover,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 li:hover {
+                            /* background: #21812f; */
+                            color: #fff;
+                        }
+
+                            .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs li:hover i,
+                            .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2 li:hover i,
+                            .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3 li:hover i,
+                            .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 li:hover i {
+                                animation: scale .65s forwards ease;
+                            }
+
+        @-webkit-keyframes scale {
+            0% {
+                transform: translateX(-50px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes scale {
+            0% {
+                transform: translateX(-50px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+
+        /* .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs li:not(:last-child),
+        .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2 li:not(:last-child),
+        .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3 li:not(:last-child),
+        .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 li:not(:last-child){
+            margin-right: 15px;
+        } */
+
+        .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_panel,
+        .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_panel2,
+        .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_panel3,
+        .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_panel4 {
+            display: none;
+        }
+
+            .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_panel.active,
+            .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_panel2.active,
+            .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_panel3.active,
+            .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_panel4.active {
+                display: block;
+            }
+
+        @media screen and (max-width: 1200px) {
+            .inner_tab_container {
+                width: 768px;
+                max-width: 100%;
+            }
+
+            .outer_tab_area .main_panel .panel_content .column_one,
+            .outer_tab_area .main_panel .panel_content .column_two {
+                flex-basis: 50%;
+            }
+
+                .outer_tab_area .main_panel .panel_content .column_one img {
+                    max-width: 100%;
+                }
+        }
+
+        @media screen and (max-width: 768px) {
+            .inner_tab_container .tab_header {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .tabs li {
+                width: 25%;
+            }
+
+            .outer_tab_area .main_panel .main_panel_header {
+                display: flex;
+                justify-content: center;
+            }
+
+            .outer_tab_area .main_panel .panel_content {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+                .outer_tab_area .main_panel .panel_content .column_one,
+                .outer_tab_area .main_panel .panel_content .column_two {
+                    flex-basis: 100%;
+                }
+
+                .outer_tab_area .main_panel .panel_content .column_one{
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels,
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels2,
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels3,
+                    .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 {
+                        padding: 0;
+                        background: #e4f3db;
+                    }
+
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3,
+                        .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 {
+                            align-items: center;
+                        }
+
+                    .outer_tab_area .main_panel .panel_content .column_two .sub_panel {
+                        text-align: center;
+                    }
+
+                        .outer_tab_area .main_panel .panel_content .column_two .sub_panel .sub_panel_header {
+                            display: flex;
+                            justify-content: center;
+                        }
+
+            .circle_tab .circle_cri {
+                position: unset;
+                display: inline-block;
+                width: 25%;
+                margin: 20px 0;
+                min-height: 145px
+            }
+
+            .circle_tab {
+                height: 100%;
+                margin-bottom: 20px;
+            }
+
+            .flip-card-front h4 {
+                font-size: 32px !important;
+                margin-top: 25% !important;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .ss_section_three {
+                padding-top: 50px;
+            }
+
+            .blank-s {
+                margin-top: 0;
+            }
+
+            .round_section {
+                padding: 0;
+            }
+
+            .bat {
+                margin: 0;
+            }
+
+            .circle_tab .center_cricle {
+                width: 100%;
+            }
+
+            .compare_content:nth-child(even) .row{
+                flex-direction: column-reverse;
+            }
+
+            .compare_content{
+                text-align: center;
+            }
+
+            .ss_contact .container .row div:last-child{
+                margin-top: 30px;
+            }
+        }
+
+        .flip-card {
+            background-color: transparent;
+            /* width: 300px; */
+            height: 300px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(-180deg);
+        }
+
+        .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 10px;
+        }
+
+        .flip-card-front {
+            background-color: #fff;
+            color: black;
+            z-index: 0;
+        }
+
+            /* .flip-card .fa-arrow-right{
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            width: 50px;
+            height: 50px;
+            background: #21812f;
+            color: #fff;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+
+            .flip-card-front h1 {
+                position: absolute;
+                top: 0%;
+                right: 5%;
+                color: #21812f;
+                /* transform: translate(-50%,-50%); */
+                font-size: 80px;
+                font-weight: 600;
+                opacity: .5;
+                z-index: -1;
+            }
+
+            .flip-card-front h4 {
+                font-size: 40px;
+                font-weight: 600;
+                color: #21812f;
+                margin-top: 15%;
+                position: relative;
+            }
+
+        /* .flip-card-front h4::after{
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            margin-left: -25px;
+            background: #21812f;
+            width: 50px;
+            height: 3px;
+            border-radius: 2px;
+        } */
+
+        .flip-card-back {
+            background-color: #21812f;
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+            .flip-card-back p {
+                color: #fff;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translate(0,-50%);
+                padding: 16px;
+                line-height: 26px;
+            }
+
+        @media screen and (max-width: 600px) {
+            .tabs li .img_container img {
+                width: 40px;
+                height: 40px;
+            }
+
+            .outer_tab_area .tab-panels .tabs li p {
+                font-size: 14px;
+            }
+
+            /* .outer_tab_area .main_panel .panel_content .column_two .tab-panels .sub_tabs li img,
+            .outer_tab_area .main_panel .panel_content .column_two .tab-panels2 .sub_tabs2 li img,
+            .outer_tab_area .main_panel .panel_content .column_two .tab-panels3 .sub_tabs3 li img,
+            .outer_tab_area .main_panel .panel_content .column_two .tab-panels4 .sub_tabs4 li img
+            {
+
+            } */
+
+            .circle_tab .circle_cri{
+                width: 50%;
+            }
+        }
+
+        
+
+        .circle_cri.active .cri_text {
+            color: #018316;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .circle_cri.active img {
+            background: #018316;
+        }
+
+        .circle_cri.active .cricle_bg {
+            width: 80px;
+            height: 80px;
+        }
+
+        .circle_cri img {
+            background: #01ac14;
+            border-radius: 50%;
+        }
+    </style>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159410574-1');
+    </script>
+
+
+</head>
+
+<body>
+    
+
+    <!-- <section class="ss_index_one" id="home">
+        <div class="ss_header">
+            <div class="top_header_wrapper">
+                <div class="hamburger">
+                    <span class="line"></span>
+                </div>
+                <div class="ss_logo">
+                    <a href="index.html"><img class="img-fluid py-2" src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                <div class="menu_links">
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Service & Products</button>
+                                    <div class="dropdown-content">
+                                        <a href="#swapping">Swapping</a>
+                                        <a href="#p-benefits">Partner Benefits</a>
+                                        <a href="#technology">Technology</a>
+                                        <a href="#apps">Mobile Platforms</a>
+                                        <a href="#batteries">VoltUp Lithium-Ion</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#technology">Technology</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="top_contact">
+                    <a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="slideshow">
+            <div class="slideitem current active">
+                <img src="assets/images/voltup-banner-without-logo.png"
+                     alt="First slide">
+
+            </div>
+            <div class="slideitem">
+                <img src="assets/images/scooter-banner.png"
+                     alt="First slide">
+
+            </div>
+            <div class="slideitem">
+                <img src="assets/images/Charging-vs-swpping-new-size2.png"
+                     alt="First slide">
+
+            </div>
+
+            <div class="slideitem">
+                <img src="assets/images/fourth-banner.jpg"
+                     alt="First slide">
+            </div>
+        </div>
+    </section> -->
+
+    <section class="ss_index_one" id="home">
+        <!--===== Section One Start =====-->
+
+    
+            <!--===== Top Menu =====-->
+            <div class="ss_header">
+                <div class="top_header_wrapper">
+                    <div class="hamburger">
+                        <span class="line"></span>
+                    </div>
+                    <div class="ss_logo">
+                        <a href="index.html"><img class="img-fluid py-2" src="assets/img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="menu_links">
+                        <nav>
+                            <ul>
+                                <li><a href="#about">About</a></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button class="dropbtn">Service & Products</button>
+                                        <div class="dropdown-content">
+                                            <a href="#swapping">Swapping</a>
+                                            <a href="#p-benefits">Partner Benefits</a>
+                                            <a href="#technology">Technology</a>
+                                            <a href="#apps">Mobile Platforms</a>
+                                            <a href="#batteries">VoltUp Lithium-Ion</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#technology">Technology</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="top_contact">
+                        <a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="ss_banner_main">
+            <!--===== Banner =====-->
+            
+            <div class="">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                               
+                                <div class="col-lg-12">
+                                  <br class="visible-xs">
+                                    <h1><center>Don’t Stop...just Swap! </center></h1>
+                                    <br><br class="hidden-xs">
+                                    <img class="d-block w-100 m-img max-w gif" src="assets/images/gif/swapping.gif" alt="First slide">
+									<br class="hidden-xs">	<br class="hidden-xs">	
+                                    <center><a href="#about" class="ss_btn">Know More</a></center>
+                                </div>
+                             <!--    <div class="col-lg-2">	</div> -->
+                            </div>
+                        </div>
+                     
+                        <div class="carousel-item">
+
+                            <div class="row">
+                             <!--    <div class="col-lg-1">
+                                </div> -->
+                                <div class="col-lg-12">
+						        <br class="visible-xs">
+                                    <img class="d-block w-100 m-img max-w" src="assets/images/c-s.png" alt="First slide"><br>
+
+                                    <center><a href="#cvs" class="ss_btn">Know More</a></center>
+                                </div>
+                              <!--   <div class="col-lg-1">	</div> -->
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="row">
+                            <!--     <div class="col-lg-1">	</div> -->
+                                <div class="col-lg-12">
+                                    <!-- <h1><center>Go longer...Save larger with Lithium-Ion!	</center></h1> -->
+									<br class="visible-xs">
+                                    <img class="d-block w-100 m-img max-w" src="assets/images/comp-battery.png" alt="First slide"><br>
+                                    <center><a href="#batteries" class="ss_btn">Know More</a></center>
+                                </div>
+                           <!--      <div class="col-lg-1">	</div> -->
+                            </div>
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </dv>
+        </div>
+
+    </section> <!--===== Section One End =====-->
+
+    <section class="ss_section_three  spacer_bottom " id="about">
+        <!--===== Section Three Start =====-->
+        <div class="container">
+            <h3 class="ss_h3_center text-center mar-top">About VoltUp</h3>
+            <br>
+            <div class="row">
+
+                <div class="col-lg-10 align-self-center">
+                    <div class="ss_three_right wow fadeIn">
+
+                        <h2>Taking Charge of Today with One Eye on Tomorrow.</h2>
+                        <p>
+                            
+                            The VoltUp platform is designed to bring you the future of urban mobility now. Imagine a world where you never have to wait for your electric vehicle to recharge. That world is now a reality.
+                            <br>
+                            VoltUp is a meticulously built eco-system, one-stop battery swapping platform that promises a future where all 2 and 3 wheeler vehicles can run with zero downtime. VoltUp is transparent, accessible, safe, and most of all instant. A perfect solution for the smart cities of our future.
+                        </p>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-2 col-xs-2">
+                                <div class="box">
+                                    <img class="img-fluid n-wid" src="assets/img/vision.png">
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-xs-10">
+                                <h2> Vision </h2>
+                                <p class="pb-4 left">
+                                    Accelerating adoption of sustainable clean energy in daily transport.
+                                </p>
+                            </div>
+                        </div><br>
+                        <div class="row">
+                            <div class="col-md-2 col-xs-2">
+                                <div class="box">
+                                    <img class="img-fluid n-wid" src="assets/img/mission.png">
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-xs-10">
+                                <h2> Mission </h2>
+                                <p class="pb-4 left">
+                                    To enable <b>1 million</b> electric vehicles running on a smart sustainably fuelled battery swapping network.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="ss_three_left wow fadeIn">
+                        <img class="img-fluid m-res" src="assets/images/charged.gif" alt="image" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="ss_shape_one">
+                <div class="ss_shape"></div>
+            </div>
+            <div class="ss_shape_dot"></div>
+        </div>
+
+        <div class="inner_power-us container mt-5">
+            <div class="power_us_header">
+                <h3 class="text-center mb-5 ss_h3_center ">What powers us?</h3>
+            </div>
+            <!-- <div class="type_writer_container">
+                <h2 class="text-center">
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Zero Maintenance", "Real-time Information", "Investment not cost", "Pay as you go"]'>
+                      <span class="wrap"></span>
+                    </a>
+                </h2>
+            </div> -->
+
+            <div class="power_us_content mt-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-5 py-3 m-3 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                                    <!-- <h1>01</h1> -->
+                                    <h4>Pay as you <br>go</h4>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>We like to keep things transparent, with VoltUp just pay the initial subscription amount and then pay as per your use. No minimum or maximum swap limit or compulsory daily charges.</p>
+                                </div>
+                            </div>
+                            <!-- <i class="fas fa-arrow-right"></i> -->
+                        </div>
+                        <div class="col-md-5 py-3 m-3 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                                    <!-- <h1>02</h1> -->
+                                    <h4>Investment <br>not cost</h4>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>VoltUp takes care of all battery maintenance and servicing over it’s lifetime, so you can now save maintenance cost and enjoy a worry-free experience with VoltUp batteries. To add to that, each subscription let’s you enjoy the VoltUp experience with advanced Li-ion batteries for 3 years.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 py-3 m-3 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                                    <!-- <h1>03</h1> -->
+                                    <h4>Real-time- <br>information</h4>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>Our batteries are equipped with intelligently designed BMS and telematics system which empowers real-time information through a cloud connected ecosystem to monitor every battery and driver related parameter. Making every ride of yours smooth and reliable.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 py-3 m-3 flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+                                    <!-- <h1>04</h1> -->
+                                    <h4>Zero <br>Maintenance</h4>
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>
+                                        Our aim is to ensure zero downtime for all EVs and we enable this through battery swaps at all VoltUp Electric Mobility Stations.
+                                        <br>
+                                        Once you join our network we have all your battery related needs covered. Zero hassles of replacement or service, in short, zero maintenance.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ss_section_six ss_section_sec_bg  spacer_top spacer_bottom" id="services">
+        <!--===== Section Six Start =====-->
+        <div class="container">
+            <h3 class="ss_h3_center text-center"> Services & Products</h3>
+            <p class="text-center sub_heading_service">
+                VoltUp redefines the future of EV with a variety of powerful and efficient products and services, swapping, advanced Li-ion batteries, and a network of swapping stations, VoltUp is a one-stop smart solution for all your e-vehicle needs.
+            </p>
+            <div class="round_section" id="swapping">
+                <h3 class="ss_h3_center text-center">Swapping</h3>
+                <div class="circle_tab">
+                    <div class="center_cricle" style="background-image:url(webstatic/img/bg-swapping.png);">
+                        <div class="center_content">
+                            <h1 id="center_h">
+                                Redefining the <br>future of EV
+                            </h1>
+                            <p id="center_p">
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="circle_cri circle_cri_1">
+                        <a id="circle_cri_1" href="javascript:;" class="cricle_bg">
+
+                            <img src="webstatic/img/Battery-Lifespan.png" width="150">
+
+                        </a>
+                        <span class="cri_text">Time to Refill</span>
+                    </div>
+                    <div class="circle_cri circle_cri_2">
+                        <a id="circle_cri_2" href="javascript:;" class="cricle_bg">
+                            <img src="webstatic/img/Technology-Advancement70x70.png" width="100">
+                        </a>
+                        <span class="cri_text">Sell</span>
+                    </div>
+                    <div class="circle_cri circle_cri_3">
+                        <a id="circle_cri_3" href="javascript:;" class="cricle_bg">
+                            <img src="webstatic/img/Technology-Advancement70x70.png" width="100" style="padding: 5px;">
+                        </a>
+                        <span class="cri_text">Technology Advancement</span>
+                    </div>
+                    <div class="circle_cri circle_cri_4">
+                        <a id="circle_cri_4" href="javascript:;" class="cricle_bg">
+                            <img src="webstatic/img/Range-Anxiety.png" width="100">
+
+                        </a>
+                        <span class="cri_text">Range Anxiety</span>
+                    </div>
+                    <div class="circle_cri circle_cri_5">
+                        <a id="circle_cri_5" href="javascript:;" class="cricle_bg">
+                            <i class="fas fa-ambulance" aria-hidden="true"></i>
+                        </a>
+                        <span class="cri_text">Overseas</span>
+                    </div>
+                    <div class="circle_cri circle_cri_6">
+                        <a id="circle_cri_6" href="javascript:;" class="cricle_bg">
+                            <img src="webstatic/img/Time-to-refill.png" width="100">
+                        </a>
+                        <span class="cri_text">Battery Lifespan</span>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row pt-5">
+                    <div class="col-md-3 blank-s">
+                        <img class="content-image" src="assets/img/battery.png">
+                    </div>
+                    <div class="col-md-2 blank-s">
+                        <br class="hidden-xs">
+                        <br class="hidden-xs">
+                        <img class="content-image hidden-xs" src="assets/img/line.png">
+                        <img class="content-image line-img visible-xs" src="assets/img/line-v.png">
+                    </div>
+                    <div class="col-md-7 para-p">
+                        <br class="hidden-xs">
+                        <h1 class="bat"> Batteries</h1>
+                        <br>
+                        <p>
+                            Smart and intelligently designed BMS enabled Lithium-ion batteries, designed to work as a
+                            turnkey solution for the future mobility needs of 2 and 3-wheeler vehicles.
+                            The batteries are safe and powerful yet light, making it easy to swap. Lead-acid batteries are of the past whereas Li-Ion batteries are re-defining the future of all e-vehicles.
+                        </p>
+                    </div>
+
+                </div>
+				
+				<div class="row reverse">
+                <div class="col-md-7 charg para-p">
+                    <br class="hidden-xs">
+                    <h1 class="bat"> Charging Stations</h1>
+                    <br>
+                    <p>
+                VoltUp smart swapping station ensures delivering a fully charged battery in 2-mins. Keeping your vehicle unplugged for hours.  Designed in a plug n play manner for easy deployment in densely populated areas. Modular battery charging. Connected helping sharing real-time information of battery availability and charging status. All VoltUp batteries are charged in a quality and temperature controlled environment.
+                    </p>
+                </div>
+                <div class="col-md-2 blank-s">
+                    <br class="hidden-xs">
+                    <br class="hidden-xs">
+                    <img class="content-image hidden-xs" src="assets/img/line2.png">
+                    <img class="content-image line-img visible-xs" src="assets/img/line-v.png">
+                </div>
+                <div class="col-md-3 blank-s top-m">
+                    <img class="content-image" src="assets/img/battery-statn.png">
+                </div>
+            </div>
+        </div>
+            </div>
+        <br>
+    </section>
+
+    <!-- <section class="tab_area" id="oneForAll">
+        <div class="inner_tab_container">
+            <div class="tab_header">
+                <h2 class="heading">One 4 All</h2>
+                <p class="sub_heading"></p>
+            </div>
+            <div class="outer_tab_area">
+                <div class="tab-panels">
+                    <ul class="tabs">
+                        <li rel="panel1" class="active">
+                            <div class="img_container">
+                                <img src="webstatic/img/individual.png" alt="individual">
+                            </div>
+                            <p>Individual</p>
+                        </li>
+                        <li rel="panel2">
+                            <div class="img_container">
+                                <img src="webstatic/img/oem.png" alt="oem">
+                            </div>
+                            <p>OEM</p>
+                        </li>
+                        <li rel="panel3">
+                            <div class="img_container">
+                                <img src="webstatic/img/truck.png" alt="truckImg">
+                            </div>
+                            <p>Fleet</p>
+                        </li>
+                        <li rel="panel4">
+                            <div class="img_container">
+                                <img src="webstatic/img/logistics partner.png" alt="logistics">
+                            </div>
+                            <p>Logistic Partner</p>
+                        </li>
+                    </ul>
+                    <div class="main_panel active" id="panel1">
+                        <div class="main_panel_header">
+                            <h3 class="title text-center">Individual</h3>
+                        </div>
+                        <div class="panel_content">
+                            <div class="column_one">
+                                <img src="webstatic/img/fleet-image/auto.png" alt="auto">
+                            </div>
+                            <div class="column_two">
+                                <div class="tab-panels">
+                                    <div class="sub_panel active" id="sub_panel1">
+                                        <div class="sub_panel_header">
+                                            <h3>Lower cost of adoption</h3>
+                                        </div>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            VoltUp provides a hassle-free access to its enhanced futuristic products and services with a minimal subscription fee.
+                                        </p>
+                                    </div>
+                                    <div class="sub_panel" id="sub_panel2">
+                                        <h3>Zero Maintenance</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            Subscribe and forget about all battery maintenance related hassles. Every battery you swap in at VoltUp is maintained at the top of its health.
+                                        </p>
+                                    </div>
+                                    <div class="sub_panel" id="sub_panel3">
+                                        <h3>Real-time information</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            Make data your friend. Get real time information about battery health, charge remaining and more advanced analytics all streamed straight to your smartphone. 
+                                        </p>
+                                    </div>
+                                    <ul class="sub_tabs">
+                                        <li rel="sub_panel1" class="active">
+                                            <i class="fas fa-hand-holding-usd"></i>
+                                        </li>
+                                        <li rel="sub_panel2">
+                                            <i class="fas fa-tools"></i>
+                                        </li>
+                                        <li rel="sub_panel3">
+                                            <i class="fas fa-info-circle"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="contact_one_all">
+                                        <a href="#contact" class="fa fa-phone" aria-hidden="true"></a>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="main_panel" id="panel2">
+                        <div class="main_panel_header">
+                            <h3 class="title text-center">OEM</h3>
+                        </div>
+                        <div class="panel_content">
+                            <div class="column_one">
+                                <img src="webstatic/img/fleet-image/bike.jpg" alt="bike">
+                            </div>
+                            <div class="column_two">
+                                <div class="tab-panels2">
+                                    <div class="sub_panel2 active" id="sub_panel4">
+                                        <h3>Smarter Batteries</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            Get access to the updated and advance Li-ion batteries with real-time information on mobile application to monitor and manage battery’s health. Make the smarter choice and transform your vehicle into smart vehicle with our smart batteries.
+                                        </p>
+                                    </div>
+                                    <div class="sub_panel2" id="sub_panel5">
+                                        <h3>Improve your vehicle’s performance</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            Lightweight and advanced VoltUp Li-ion batteries that are maintenance free, gives your vehicle an optimum output to go an extra mile.
+                                        </p>
+                                    </div>
+                                    <div class="sub_panel2" id="sub_panel6">
+                                        <h3>Increased Reach</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            VoltUp provides access to its denser network on subscribing at minimal cost. Get access to unlimited swapping at VoltUp Swapping Stations which are accessible at various locations.
+                                        </p>
+                                    </div>
+                                    <ul class="sub_tabs2">
+                                        <li rel="sub_panel4" class="active">
+                                            <i class="fas fa-car-battery"></i>
+                                        </li>
+                                        <li rel="sub_panel5">
+                                            <i class="fas fa-car"></i>
+                                        </li>
+                                        <li rel="sub_panel6">
+                                            <i class="fas fa-network-wired"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="contact_one_all">
+                                        <a href="#contact" class="fa fa-phone" aria-hidden="true"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="main_panel" id="panel3">
+                        <div class="main_panel_header">
+                            <h3 class="title text-center">Fleet</h3>
+                        </div>
+                        <div class="panel_content">
+                            <div class="column_one">
+                                <img src="webstatic/img/fleet-image/micro.png" alt="auto">
+                            </div>
+                            <div class="column_two">
+                                <div class="tab-panels3">
+                                    <div class="sub_panel3  active" id="sub_panel8">
+                                        <h3>Freedom of running 24x7</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            VoltUp has a large network of swapping stations that allow you to swap batteries within 2 mins, hence giving you a freedom to run for longer durations.
+                                    </div>
+                                    <div class="sub_panel3" id="sub_panel9">
+                                        <h3>Freedom from battery renewal (lifespan) and range anxiety</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            VoltUp provides unlimited swapping and commitment of 3 years of maintenance providing you the peace of mind against battery renewal.
+                                        </p>
+                                    </div>
+                                    <div class="sub_panel3" id="sub_panel10">
+                                        <h3>Shared economy</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            VoltUp takes up the entire responsibility of the maintenance of its batteries and gives you hassle free access to a completely charged battery in 2 mins thus saving cost.
+                                        </p>
+                                    </div>
+                                    <ul class="sub_tabs3">
+                                        <li rel="sub_panel8" class="active">
+                                            <i class="fas fa-history"></i>
+                                        </li>
+                                        <li rel="sub_panel9">
+                                            <i class="fas fa-sync-alt"></i>
+                                        </li>
+                                        <li rel="sub_panel10">
+                                            <i class="fas fa-archway"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="contact_one_all">
+                                        <a href="#contact" class="fa fa-phone" aria-hidden="true"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="main_panel" id="panel4">
+                        <div class="main_panel_header">
+                            <h3 class="title text-center">Logistic Partner</h3>
+                        </div>
+                        <div class="panel_content">
+                            <div class="column_one">
+                                <img src="webstatic/img/fleet-image/mini.png" alt="auto">
+                            </div>
+                            <div class="column_two">
+                                <div class="tab-panels4">
+                                    <div class="sub_panel4 active" id="sub_panel12">
+                                        <h3>Integrations</h3>
+                                        <p class="caption_text" style="padding-top: 15px;">
+                                            VoltUp provides you access to updated technology and applications that provides you with real time and important information at your fingertips.
+                                        </p>
+                                    </div>
+                                    <div class="sub_panel4" id="sub_panel11">
+                                        <h3>One solution for all requirements</h3>
+                                        <p class="caption_text" style="padding-top: 15px;"> 
+                                            For any vehicle type - slow L3, L5 vehicle or a high speed, we have solutions for all. Our solutions are designed to give your business a maximum output with zero downtime.
+                                        </p>
+                                    </div>
+                                    <ul class="sub_tabs4">
+                                        <li rel="sub_panel12" class="active">
+                                            <i class="fas fa-cogs"></i>
+                                        </li>
+                                        <li rel="sub_panel11">
+                                            <i class="fas fa-check-double"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="contact_one_all">
+                                        <a href="#contact" class="fa fa-phone" aria-hidden="true"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <section class="ss_section_six spacer_top spacer_bottom" id="p-benefits">
+        <div class="container">
+            <!--Section heading-->
+            <h3 class="ss_h3_center text-center" style="margin-top:96px">Platform Partner Benefits</h3> <br>
+            <br>
+            <!--Section description-->
+            <!--Grid row-->
+            <div class="row pt-2">
+
+                <!--Grid column-->
+                <div class="col-lg-6 text-center text-lg-left">
+                    <img src="assets/img/Statistics.jpg" alt="" class="img-fluid z-depth-0">
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-6">
+
+                    <!--Grid row-->
+                    <div class="row pb-3">
+                        <div class="col-2 col-md-1">
+                            <img class="icon-w" src="assets/img/reply.png">
+                        </div>
+                        <div class="col-10">
+                            <h5 class="font-weight-bold text-left mb-3 dark-grey-text">Larger Network</h5>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <!--Grid row-->
+                    <div class="row pb-3">
+                        <div class="col-2 col-md-1">
+                            <img class="icon-w" src="assets/img/reply.png">
+                        </div>
+                        <div class="col-10">
+                            <h5 class="font-weight-bold text-left mb-3 dark-grey-text">
+                                Ease of running business:
+                                Transparency | Control | Real time update
+                            </h5>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <!--Grid row-->
+                    <div class="row pb-3">
+                        <div class="col-2 col-md-1">
+                            <img class="icon-w" src="assets/img/reply.png">
+                        </div>
+                        <div class="col-10">
+                            <h5 class="font-weight-bold text-left mb-3 dark-grey-text">Consistent Returns</h5>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <div class="row pb-3">
+                        <div class="col-2 col-md-1">
+                            <img class="icon-w" src="assets/img/reply.png">
+                        </div>
+                        <div class="col-10">
+                            <h5 class="font-weight-bold text-left mb-3 dark-grey-text">Faster growth</h5>
+
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-2 col-md-1">
+                            <img class="icon-w" src="assets/img/reply.png">
+                        </div>
+                        <div class="col-10">
+                            <h5 class="font-weight-bold text-left mb-3 dark-grey-text">Part of the EV revolution</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+    </section>
+
+    <section class="ss_section_three spacer_bottom" id="technology">
+        <!--===== Section Three Start =====-->
+        <div class="container">
+            <h3 class="ss_h3_center text-center">Technology</h3>
+            <br>
+            <p class="text-center">
+                VoltUp believes that the future of e-vehicles is driven by data and technology, hence it is continuously evolving with smarter and efficient technology embedded products which not only collects data, but also manages products and provides real-time updates.
+            </p>
+            <br>
+            <div class="row">
+                <div class="col-lg-1 col-md-1">
+                </div>
+                <div class="col-md-10 ss_three_left wow fadeIn">
+                    <img class="img-fluid" src="assets/img/technology.png" alt="image" />
+                </div>
+                <div class="col-lg-1 col-md-1">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <div class=" wow fadeIn box-shadow">
+                        <h2 class="mar_b">Data-Driven : </h2>
+                        <p class="">
+                            VoltUp has one of the most technologically advanced charging infrastructures with the
+                            ability to monitor battery’s health and availability with real-time data to ensure optimum usage
+                            and maximum lifespan.
+                            <!-- <span id="dots">.....</span><span id="more">
+                                monitor battery’s health and availability with real-time data to ensure optimum usage
+                                and maximum lifespan.
+                            </span><button onclick="myFunction()" id="myBtn">Read more</button> -->
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" wow fadeIn box-shadow">
+                        <h2 class="mar_b">BMS : </h2>
+
+
+                        <p class="">
+                            Built to monitor, protect, balance, and communicate; VoltUp batteries are enabled with
+                            Battery Management System (BMS) and Telematics to share live information like temperature, voltage, current, distribution, short
+                            circuit, etc. over cloud.
+                            <!-- <span id="dots1">.....</span><span id="more1">
+                                and Telematics to share live information like temperature, voltage, current, distribution, short
+                                circuit, etc. over cloud.
+                            </span> <button onclick="myFunction1()" id="myBtn1">Read more</button> -->
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" wow fadeIn box-shadow">
+                        <h2 class="mar_b">
+                            Telematics : </h3>
+                            <p class="">
+                                VoltUp batteries are integrated with Telematics which helps in tracking crucial data
+                                like kilometers traveled, driving quality, live location, speed alert, accident alerts, and geofencing for
+                                protection against misuse and theft to ensure safety, optimum battery performance and deliver high value.
+                                <!-- <span id="dots2">.....</span><span id="more2">
+                                    driving quality, live location, speed alert, accident alerts, and geofencing for
+                                    protection against misuse and theft to ensure safety, optimum battery performance and deliver high value.
+
+                                </span><button onclick="myFunction2()" id="myBtn2">Read more</button> -->
+                            </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="ss_shape_one">
+                <div class="ss_shape"></div>
+            </div>
+            <div class="ss_shape_dot"></div>
+        </div>
+    </section>
+
+    <section class="ss_section_three " id="apps">
+        <div class="container">
+            <div class="">
+                <h3 class="ss_h3_center text-center"> Our Mobile Platforms</h3>
+                <br>
+                <p class="text-center">
+                    The world is going mobile and so are we at VoltUp; We are continuously enhancing our customer’s and partner’s experiences through our innovative mobile applications. We value our stakeholders and develop deep relation by being transparent and providing best services.
+                </p>
+                <br>
+                <br>
+                <div class="warpper">
+                    <input class="radio" id="one" name="group" type="radio" checked>
+                    <input class="radio" id="two" name="group" type="radio">
+
+                    <div class="tabs">
+                        <label class="tab" id="one-tab" for="one">Partners</label>
+                        <label class="tab" id="two-tab" for="two">Customers</label>
+                    </div>
+
+                    <div class="panels">
+                        <div class="panel" id="one-panel">
+                            <br class="hidden-xs">
+                            <br class="hidden-xs">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-3">
+                                    <p>
+                                        A single application for partners to operate a business, maintain information,
+                                        register drivers, and track their battery usages. VoltUp App supports Wallet transactions and keeps track
+                                        of their earnings.
+                                    </p>
+                                    <br>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="row mar-left">
+                                        <div class="col-md-6 col-xs-6">
+                                            <img class="img-fluid ss_four_shadow" src="assets/images/apps/part1.png"
+                                                 alt="image">
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <img class="img-fluid ss_four_shadow" src="assets/images/apps/part2.png"
+                                                 alt="image">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+
+                        <div class="panel" id="two-panel">
+
+                            <br class="hidden-xs">
+                            <br class="hidden-xs">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-3">
+                                    <p>
+                                        A smart application for customers to access their account, search charging
+                                        zones/stations,
+                                        make payments, and track their battery usages and availability.
+                                    </p>
+                                    <br>
+
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="row mar-left">
+                                        <div class="col-md-6 col-xs-6">
+                                            <img class="img-fluid ss_four_shadow" src="assets/images/apps/cust1.png"
+                                                 alt="image">
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <img class="img-fluid ss_four_shadow" src="assets/images/apps/cust2.png"
+                                                 alt="image">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="area">
+                    <ul class="circles">
+                        <li>+</li>
+                        <li>-</li>
+                        <li>+</li>
+                        <li>+</li>
+                        <li>+</li>
+                        <li>-</li>
+                        <li>+</li>
+                        <li>-</li>
+                        <li>+</li>
+                        <li>-</li>
+                        <li>+</li>
+                        <li>+</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>+</li>
+                        <li>+</li>
+                        <li>-</li>
+                        <li>+</li>
+                        <li>-</li>
+                    </ul>
+                </div>
+    </section>
+
+    <section class="ss_section_four spacer_top spacer_bottom" id="batteries">
+        <!--===== Section Four Start =====-->
+        <div class="container">
+            <h3 class="ss_h3_center text-center">Smart VoltUp Lithium-Ion batteries</h3>
+            <p class="text-center sub_heading_batteries">Why compromise with regular Li-ion or Lead acid batteries when you can get a smarter, powerful and efficient option with VoltUp batteries.</p>
+            <div class="row">
+                <!-- <div class="col-lg-1">
+                </div> -->
+                <div class="col-lg-12">
+                    <div class="ss_four_right wow fadeIn">
+                        <br> <br class="hidden-xs"> <br class="hidden-xs">
+                        <img class="img-fluid" src="assets/images/comp-battery.jpg" alt="image" />
+                    </div>
+
+                </div>
+                <!--   <div class="col-lg-1">
+
+                </div> -->
+            </div>
+            <br><br><br>
+            <div class="col-md-10 offset-1 mb-5">
+                <!-- <p class="box_text">
+                    We intend to make it Common EV batteries vs VoltUp Li-ion Batteries. The commonly used EV batteries will consist of all other battery types like Lead-acid, other Li-ion batteries, and so on. For this, we will highlight the following points :
+                </p> -->
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 mb-5 compare_content">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12 text-center">
+                            <img src="assets/img/efficiency.png" alt="img">
+                        </div>
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="mar_b">Battery energy density :</h2>
+                            <p class="left">
+                                VoltUp batteries are not only cheaper but also, are made in the highest quality energy density making it more efficient for longer duration than common Li-ion batteries and Lead acid batteries. The smart VoltUp batteries are an efficient and powerful choice for all e-vehicles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5 compare_content">
+                    <div class="row">
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="mar_b"> Zero Maintenance :</h2>
+                            <p class="left">
+                                VoltUp Li-Ion batteries are low maintenance as compared to Lead-acid batteries that require continuous water checks, terminal cleanings, gravity checks and many more. VoltUp provides its customers with hassle free experience and zero maintenance smart VoltUp Li-Ion batteries which are light in weight and light on pockets. Just swap and leave the rest to the company.
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-sm-12 text-center">
+                            <img src="assets/img/zero-main.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5 compare_content">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12 text-center">
+                            <img src="assets/img/rupees.png" alt="img">
+                        </div>
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="mar_b">Battery renewal : </h2>
+                            <p class="left">
+                                VoltUp provides 3 years of unlimited battery swapping with zero downtime on registration. VoltUp smart Li-ion batteries don't need to be replaced every 8 months like Lead acid batteries or every 2 years like common Li-ion batteries thus saving time and cost.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5 compare_content">
+                    <div class="row">
+                        <div class="col-md-10 col-sm-12">
+                            <h2 class="mar_b">Lightweight : </h2>
+                            <p class="left">
+                                VoltUp provides smart light weight Li-ion batteries that provide real-time updates and weighs only 12 kgs as compared to ordinary 100kgs batteries…Travel light and travel smart with VoltUp.
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-sm-12 text-center">
+                            <img src="assets/img/weight.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+    
+    <section class="ss_contact spacer_top ss_section_sec_bg spacer_bottom" id="contact">
+        <!--===== Form Section Start =====-->
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-8 col-sm-12">
+
+                    <div class="ss_box_wbg">
+
+
+                        <div class="ss_contact_right">
+
+                            <!-- 						<h1>Get in touch</h1> -->
+                            <form action="http://cmt.digitaledgetech.in/voltup/mail.php" method="POST">
+                                <h3 class="ss_h3_center text-center">enquiry form</h3>
+                                <br>
+                                <div class="ss_contact_form">
+                                    <label>Name</label>
+                                    <input type="text" placeholder="Enter your name" name="name" id="full_name"
+                                           class="require">
+                                </div>
+                                <div class="ss_contact_form">
+                                    <label>Email</label>
+                                    <input type="text" name="email" id="email" placeholder="Enter your email"
+                                           class="require" data-valid="email" data-error="Email should be valid.">
+                                </div>
+                                <div class="ss_contact_form">
+                                    <label>Mobile</label>
+                                    <input type="tel" placeholder="Enter your contact no" name="mob" id="mob"
+                                           class="require">
+                                </div>
+                                <div class="ss_contact_form">
+                                    <label>City</label>
+                                    <input type="text" name="city" id="city" placeholder="Enter your city"
+                                           class="require">
+                                </div>
+                                
+                                <div class="ss_contact_form">
+                                    <label>Subject</label>
+                                    <input type="text" name="subject" id="subject" placeholder="Enter your subject"
+                                           class="require">
+                                </div>
+                                <div class="ss_contact_form">
+                                    <label class="ss_message">Message</label>
+                                    <textarea name="message" id="message" placeholder="Enter your message"
+                                              class="require"></textarea>
+                                </div>
+                                <br>
+                                <input type="submit" value="Send" class="ss_btn submitForm">
+                                <!--<button type="button" class="ss_btn submitForm">Submit</button>-->
+                                <div class="response"></div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-12">
+                    <div class="map_img_container">
+                        <h4 class="text-center">
+                            Our Presence</h1>
+                            <img src="assets/img/map.png" alt="map" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <!--  <div class="col-lg-3 col-md-7">
+            </div> -->
+    </section>
+
+    <!--===== Section Eight End =====-->
+    <section class="ss_newsletter ss_section_sec_bg">
+        <!--===== Section Newsletter Start =====-->
+        <div class="container">
+            <div class="ss_footer_news ss_box_bg">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="icon-w" src="assets/img/career.png">
+                        <div class="white">
+                            <h5 class="white">Career Opportunities</h5>
+                            hr@voltup.in
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="icon-w" src="assets/img/service.png">
+                        <div class="white">
+                            <h5 class="white">Customer Service</h5>
+
+                            vcare@voltup.in
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="icon-w" src="assets/img/emaiil.png">
+                        <div class="white">
+                            <h5 class="white">Contact</h5>
+
+                            contactus@voltup.in
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="icon-w" src="assets/img/contact.png">
+                        <div class="white">
+                            <h5 class="white">Missed Call number</h5>
+                            18001377766
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--===== Section Newsletter End =====-->
+    <!-- Return to Top -->
+    <a href="javascript:" id="return-to-top"><img class="img-fluid" src="assets/img/top.png" alt="logo" /></a>
+
+
+
+    <section class="ss_section_footer" id="">
+        <!--===== Section Footer Start =====-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-6">
+                            <div class="ss_foot_sec">
+                                <h2 class="ss_foot_head">Product & Services</h2>
+                                <ul>
+                                    <li><a href="#services"><i class="fas fa-circle"></i> Chargers </a></li>
+                                    <li><a href="#services"><i class="fas fa-circle"></i> Batteries </a></li>
+                                    <li><a href="#services"><i class="fas fa-circle"></i> Charging Station </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="ss_foot_sec">
+                                <h2 class="ss_foot_head">Useful Links</h2>
+                                <ul>
+                                    <li><a href="#about"><i class="fas fa-circle"></i> About </a></li>
+                                    <li><a href="#enquiry"><i class="fas fa-circle"></i> Enquiry </a></li>
+                                    <li>
+                                        <a href="privacy-policy.html" target="blank">
+                                            <i class="fas fa-circle"></i>
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-of-use.html" target="blank">
+                                            <i class="fas fa-circle"></i> Terms
+                                            of Use
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-6 col-sm-6">
+                            <div class="ss_foot_sec">
+                                <h2 class="ss_foot_head">Contact Us</h2>
+
+                                <ul>
+                                    <li>
+                                        Address : C-6, Amar Industrial Estate, CST Road, Kalina
+                                        Santacruz (E), Mumbai – 400 098.
+                                    </li>
+                                    <li>
+
+                                        Email Id :
+
+                                        contactus@voltup.in
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/VoltUpIndia" target="_blank">
+                                            <i class="fab fa-facebook-f icon-s"></i>
+                                        </a>&nbsp;&nbsp;
+                                        <a href="https://www.linkedin.com/company/30175303" target="_blank">
+                                            <i class="fab fa-linkedin-in icon-s"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== Section Footer End =====-->
+    <div class="ss_copywrite">
+        <p>© 2020 NEPL | Developed by : <a href="http://www.digitaledgetech.in/">DIGITAL EDGE TECHNOLOGIES</a></p>
+    </div>
+    <script src='https://production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+    <script>
+        "use strict";
+
+        var center = { x: 325, y: 175 };
+        var serv_dist = 250;
+        var pointer_dist = 172;
+        var pointer_time = 2;
+        var icon_size = 42;
+        var circle_radius = 38;
+        var text_top_margin = 18;
+        var tspan_delta = 16;
+
+
+        var services_data = [{ name: "Time to Refill", icon: "industries" }, { name: "Validation\n(C&Q and CSV)", icon: "validation" }, { name: "Technological Advancement", icon: "engineering" }, { name: "Project\nManagement", icon: "management" }, { name: "Range Anxiety", icon: "manufacturing" }, { name: "Technical\nServices", icon: "technical" }, { name: "Battery Lifespan", icon: "process" }];
+
+        var services = document.getElementById("service-collection");
+        var nav_container = document.getElementById("circle-nav-services");
+        var symbol_copy = document.getElementById("circle-nav-copy");
+        var use_copy = document.querySelector("use.nav-copy");
+
+
+        function createSVGElement(el) {
+            return document.createElementNS("http://www.w3.org/2000/svg", el);
+        }
+
+
+        function setAttributes(el, options) {
+            Object.keys(options).forEach(function (attr) {
+                el.setAttribute(attr, options[attr]);
+            });
+        }
+
+
+        function addService(serv, index) {
+            var group = createSVGElement("g");
+            group.setAttribute("class", "service serv-" + index);
+
+
+            var icon_group = createSVGElement("g");
+            icon_group.setAttribute("class", "icon-wrapper");
+
+            var circle = createSVGElement("circle");
+            setAttributes(circle, {
+                r: circle_radius,
+                cx: center.x,
+                cy: center.y
+            });
+            var circle_shadow = circle.cloneNode();
+            setAttributes(circle, {
+                class: 'shadow'
+            });
+            icon_group.appendChild(circle_shadow);
+            icon_group.appendChild(circle);
+
+            var symbol = createSVGElement("use");
+            setAttributes(symbol, {
+                'x': center.x - icon_size / 2,
+                'y': center.y - icon_size / 2,
+                'width': icon_size,
+                'height': icon_size
+            });
+            symbol.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", "#" + serv.icon);
+            icon_group.appendChild(symbol);
+
+            group.appendChild(icon_group);
+
+            var text = createSVGElement("text");
+            setAttributes(text, {
+                x: center.x,
+                y: center.y + circle_radius + text_top_margin
+            });
+
+            var tspan = createSVGElement("tspan");
+            if (serv.name.indexOf('\n') >= 0) {
+
+                var tspan2 = tspan.cloneNode();
+                var name = serv.name.split('\n');
+                jQuery(tspan).text(name[0]);
+                jQuery(tspan2).text(name[1]);
+
+                setAttributes(tspan2, {
+                    x: center.x,
+                    dy: tspan_delta
+                });
+
+                text.appendChild(tspan);
+                text.appendChild(tspan2);
+            } else {
+                jQuery(tspan).text(serv.name);
+                text.appendChild(tspan);
+            }
+
+            group.appendChild(text);
+            services.appendChild(group);
+
+            var service_bubble = jQuery(".serv-" + index);
+
+
+            twn_pivot_path.seek(index);
+            TweenLite.set(service_bubble, {
+                x: pivot_path.x,
+                y: pivot_path.y,
+                transformOrigin: "center center"
+            });
+
+            service_bubble.click(serviceClick);
+        }
+
+
+        function createPointer() {
+            var service_pointer = createSVGElement("circle");
+
+            setAttributes(service_pointer, {
+                cx: center.x - pointer_dist,
+                cy: center.y,
+                r: 12,
+                class: "pointer"
+            });
+
+            nav_container.appendChild(service_pointer);
+
+            service_pointer = document.querySelector("svg .pointer");
+
+            var pointer_circle = [{ x: 0, y: 0 }, { x: pointer_dist, y: pointer_dist }, { x: pointer_dist * 2, y: 0 }, { x: pointer_dist, y: -pointer_dist }, { x: 0, y: 0 }];
+
+            twn_pointer_path.to(service_pointer, pointer_time, {
+                bezier: {
+                    values: pointer_circle,
+                    curviness: 1.5
+                },
+                ease: Power0.easeNone,
+                transformOrigin: "center center"
+            });
+        }
+
+
+        function serviceClick(ev) {
+
+
+            jQuery(".service.active").removeClass("active");
+
+            var current = jQuery(ev.currentTarget);
+            current.addClass("active");
+
+
+            var current_class = current.attr("class").split(" ")[1];
+            var class_index = current_class.split('-')[1];
+
+
+            jQuery(use_copy).addClass("changing");
+
+
+            twn_pointer_path.tweenTo(class_index * (pointer_time / (2 * 6)));
+
+
+            setTimeout(function () {
+                var viewBoxY = 300 * class_index;
+                symbol_copy.setAttribute("viewBox", "0 " + viewBoxY + " 300 300");
+                jQuery(use_copy).removeClass("changing");
+            }, 250);
+        }
+
+
+        var half_circle = [{ x: -serv_dist, y: 0 }, { x: 0, y: serv_dist }, { x: serv_dist, y: 0 }, { x: 0, y: -serv_dist }, { x: -serv_dist, y: 0 }];
+
+
+        var pivot_path = { x: half_circle[0].x, y: half_circle[0].y };
+
+
+        var twn_pivot_path = TweenMax.to(pivot_path, 12, {
+            bezier: {
+                values: half_circle,
+                curviness: 1.5
+            },
+            ease: Linear.easeNone
+        });
+
+        services_data.reduce(function (count, serv) {
+            addService(serv, count);
+            return ++count;
+        }, 0);
+
+
+        var twn_pointer_path = new TimelineMax({ paused: true });
+        createPointer();
+
+
+        setTimeout(function () {
+            return jQuery("#service-collection .serv-0").addClass("active");
+        }, 200);
+
+    </script>
+    <!--===== Section Footer End =====-->
+    <!-- <script src="assets/js/jquery.min.js"></script>-->
+    <script src="webstatic/js/jquery-3.2.1.min.js"></script>
+    <script src="webstatic/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="webstatic/js/slick.js"></script>
+    <script src="webstatic/js/landing-main.js"></script>
+    <script src="webstatic/js/send-events.js"></script>
+    <script src="https://kit.fontawesome.com/47d23c9f7f.js"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <script src="assets/js/s/script.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/s/n/script.js"></script>
+    <script>
+        $(function () {
+
+            $(document).on('click', 'a.page-scroll', function (event) {
+                var $anchor = $(this);
+                $('html,body').stop().animate({
+                    scrollTop: ($($anchor.attr('href')).offset().top - 45)
+                }, 1500, 'easeInOutExpo');
+                event.preventDefault();
+            });
+        });
+
+
+
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/ {
+                $('.opaque-navbar').addClass('opaque');
+            } else {
+                $('.opaque-navbar').removeClass('opaque');
+            }
+        });</script>
+
+    <script>
+        $(document).ready(function () {
+
+            // $("#slideshow > div:gt(0)").hide();
+
+            // var buttons = "";
+
+            // var slidesl = $('.slideitem').length
+            // var d = "<li class=\"dot active-dot\"></li>";
+            // for (var i = 1; i < slidesl; i++) {
+            //     d = d + "<li class=\"dot\"></li>";
+            // }
+            // var dots = "<ul class=\"slider-dots\">" + d + "</ul\>";
+
+            // $("#slideshow").append(dots).append(buttons);
+            // var interval = setInterval(slide, 3000);
+
+            // function intslide(func) {
+            //     if (func == 'start') {
+            //         interval = setInterval(slide, 3000);
+            //     } else {
+            //         clearInterval(interval);
+            //     }
+            // }
+
+            // function slide() {
+            //     sact('next', 0, 1200);
+            // }
+
+            // function sact(a, ix, it) {
+            //     var currentSlide = $('.current');
+            //     var nextSlide = currentSlide.next('.slideitem');
+            //     var prevSlide = currentSlide.prev('.slideitem');
+            //     var reqSlide = $('.slideitem').eq(ix);
+
+            //     var currentDot = $('.active-dot');
+            //     var nextDot = currentDot.next();
+            //     var prevDot = currentDot.prev();
+            //     var reqDot = $('.dot').eq(ix);
+
+            //     if (nextSlide.length == 0) {
+            //         nextDot = $('.dot').first();
+            //         nextSlide = $('.slideitem').first();
+            //     }
+
+            //     if (prevSlide.length == 0) {
+            //         prevDot = $('.dot').last();
+            //         prevSlide = $('.slideitem').last();
+            //     }
+
+            //     if (a == 'next') {
+            //         var Slide = nextSlide;
+            //         var Dot = nextDot;
+            //     }
+            //     else if (a == 'prev') {
+            //         var Slide = prevSlide;
+            //         var Dot = prevDot;
+            //     }
+            //     else {
+            //         var Slide = reqSlide;
+            //         var Dot = reqDot;
+            //     }
+
+            //     currentSlide.fadeOut(it).removeClass('current');
+            //     Slide.fadeIn(it).addClass('current');
+
+            //     currentDot.removeClass('active-dot');
+            //     Dot.addClass('active-dot');
+            // }
+
+            // $('.next').on('click', function () {
+            //     intslide('stop');
+            //     sact('next', 0, 400);
+            //     intslide('start');
+            // });//next
+
+            // $('.prev').on('click', function () {
+            //     intslide('stop');
+            //     sact('prev', 0, 400);
+            //     intslide('start');
+            // });//prev
+
+            // $('.dot').on('click', function () {
+            //     intslide('stop');
+            //     var index = $(this).index();
+            //     sact('dot', index, 400);
+            //     intslide('start');
+            // });//prev
+            //slideshow
+        });
+
+
+        // New Js
+        $(document).ready(function () {
+            //on click
+
+            $('.tab-panels .tabs li').on('click', function () {
+                //find out which panel to show
+                $panelToShow = $(this).attr('rel');
+                //hide current tab
+                $('.tab-panels .main_panel.active').fadeOut(300, function () {
+                    $(this).removeClass('active');
+                    $('#' + $panelToShow).fadeIn(800, function () {
+                        $(this).addClass('active');
+                    });
+                });
+
+                // $('.tab-panels .panel.active').fadeOut(1000,function(){
+                // 	$('#'+$panelToShow).fadeIn(1000,function(){
+                // 		$(this).addClass('active');
+                // 	})
+                // });
+            })
+
+            $('.tab-panels .sub_tabs li').on('click', function () {
+                //find out which panel to show
+                $subpanelToShow = $(this).attr('rel');
+                console.log($subpanelToShow);
+
+                //hide curent tab
+                $('.tab-panels .sub_panel.active').fadeOut(800, function () {
+                    $(this).removeClass('active');
+                    $('#' + $subpanelToShow).fadeIn(800, function () {
+                        $(this).addClass('active');
+                    });
+                });
+            })
+
+            $('.tab-panels2 .sub_tabs2 li').on('click', function () {
+                $subpanelToShow2 = $(this).attr('rel');
+                $('.tab-panels2 .sub_panel2.active').fadeOut(800, function () {
+                    $(this).removeClass('active');
+                    $('#' + $subpanelToShow2).fadeIn(800, function () {
+                        $(this).addClass('active');
+                    });
+                });
+            })
+
+            $('.tab-panels3 .sub_tabs3 li').on('click', function () {
+                $subpanelToShow3 = $(this).attr('rel');
+                $('.tab-panels3 .sub_panel3.active').fadeOut(800, function () {
+                    $(this).removeClass('active');
+                    $('#' + $subpanelToShow3).fadeIn(800, function () {
+                        $(this).addClass('active');
+                    });
+                });
+            })
+
+            $('.tab-panels4 .sub_tabs4 li').on('click', function () {
+                $subpanelToShow4 = $(this).attr('rel');
+                $('.tab-panels4 .sub_panel4.active').fadeOut(800, function () {
+                    $(this).removeClass('active');
+                    $('#' + $subpanelToShow4).fadeIn(800, function () {
+                        $(this).addClass('active');
+                    });
+                });
+            })
+        })
+
+
+
+        $('.circle_cri').on('click', function () {
+            // console.log("clicked");
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+
+        $('.sub_tabs li').on('click', function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+
+        $('.sub_tabs2 li').on('click', function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+
+        $('.sub_tabs3 li').on('click', function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+
+        $('.sub_tabs4 li').on('click', function () {
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+
+
+        // our mobile platforms
+
+        $('.partners_panels .partners_tabs li').on('click', function () {
+            //figure out which panel to show
+
+            var partnerPanelToShow = $(this).attr('rel');
+            console.log(partnerPanelToShow);
+        })
+
+        //what powers us
+        $('.fa-arrow-right').on('click', function () {
+
+        })
+
+
+
+        // one for all 
+        $('.tabs li').on('click', function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+
+        //menu-bar
+        $('.hamburger').on('click',function(){
+            $('.menu_links').toggleClass('show');
+        })
+
+        $(window).scroll(function() { // check if scroll event happened
+        if ($(document).scrollTop() > 300) { // check if user scrolled more than 80vh from top of the browser window
+          $(".ss_header").css("background-color", "#21812f"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+        //   $('.menu_links li a').css("color", "#fff");
+        //   $('.dropbtn').css("color", "#fff");
+        }
+        else {
+          $(".ss_header").css("background-color", "transparent"); // if not, change it back to transparent
+        //   $('.menu_links li a').css("color", "#21812f");
+        //   $('.dropbtn').css("color", "#21812f");
+        }
+      });
+
+    </script>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/47d23c9f7f.js"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+
+    <script>
+        $(document).ready(function () {
+            $('.ola').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $(window).bind('scroll', function () {
+            var currentTop = $(window).scrollTop();
+            // console.log('top offset:' + currentTop);
+            var elems = $('.scrollspy');
+            elems.each(function (index) {
+                var elemTop = $(this).offset().top;
+                var elemBottom = elemTop + $(this).height();
+                if (currentTop >= elemTop && currentTop <= elemBottom) {
+                    var id = $(this).attr('id');
+                    var navElem = $('a[scroll="' + id + '"]');
+                    var x = document.getElementsByClassName("cls_new");
+                    x[0].classList.remove("active");
+                    x[1].classList.remove("active");
+                    x[2].classList.remove("active");
+                    x[3].classList.remove("active");
+                    navElem.parent().addClass('active');
+                }
+            })
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.cls_new a').on('click', function () {
+
+                var currentTop = $(window).scrollTop();
+                var id_v = $(this).attr('scroll');
+                var KD = $("#" + id_v).offset().top;
+                console.log('elem offset:' + KD)
+                $('html, body').animate({
+                    scrollTop: $("#" + id_v).offset().top + 50
+                }, 100);
+                var elems = $('.scrollspy');
+
+            });
+
+            // Transition effect for navbar
+            $(window).scroll(function () {
+                // checks if window is scrolled more than 500px, adds/removes solid class
+                if ($(this).scrollTop() > 500) {
+                    $('.ss_header').addClass('solid');
+                } else {
+                    $('.ss_header').removeClass('solid');
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        $(function () {
+
+            $.each($(".print-tab .print-tab-menu > li"), function (index, value) {
+                var menu = $(value).data('tab-menu');
+                var tabID = $(value).parent().parent().data('tab-id');
+                var hash = window.location.hash.split("#").join('');
+
+                if (hash.length > 0) {
+
+                    if (menu == hash) {
+                        $('.print-tab[data-tab-id="' + tabID + '"] .print-tab-menu > li[data-tab-menu="' + menu + '"]').addClass('active');
+                        $('.print-tab[data-tab-id="' + tabID + '"] .print-tab-content > div[data-tab-content="' + menu + '"]').addClass('view');
+                    }
+
+                } else {
+                    $('.print-tab[data-tab-id="' + tabID + '"] .print-tab-menu > li:eq(0)').addClass('active');
+                    $('.print-tab[data-tab-id="' + tabID + '"] .print-tab-content > div:eq(0)').addClass('view');
+                }
+            });
+
+
+
+            $(".print-tab .print-tab-menu > li").click(function (event) {
+                var $this = $(this),
+                    $data = $this.data('tab-menu'),
+                    $tabID = $this.parent().parent().data('tab-id');
+                if (!$(this).hasClass("active")) {
+
+                    window.location.hash = $data;
+
+                    $('.print-tab[data-tab-id="' + $tabID + '"] .print-tab-menu > li').removeClass('active');
+                    $(this).addClass('active');
+
+                    $('.print-tab[data-tab-id="' + $tabID + '"] .print-tab-content > div.view').removeClass('view');
+                    $('.print-tab[data-tab-id="' + $tabID + '"] .print-tab-content > div[data-tab-content="' + $data + '"]').addClass('view');
+                }
+
+
+
+
+            });
+        });</script>
+
+    <script>
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+    </script>
+
+</body>
+</html>
